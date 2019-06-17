@@ -1,0 +1,29 @@
+/*ENIGME UNE
+================*/
+.enigme_one_screen{
+    background: red;
+    border: 2px solid black;
+    height: 100vh;
+}
+
+.district_one, .district_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    margin: 50px auto;
+}
+
+.house_skin{
+    max-width: 100%;
+    height: auto;
+}
+
+.house{
+    border: 1px solid orange;
+    width: 120px;
+    height: 200px;
+}
+
+/*FIN ENIGME UNE
+=======================*/
