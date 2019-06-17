@@ -12,44 +12,6 @@ body,html{
     height: 100vh;
 }
 
-.road{
-    background: #000;
-    width: 8%;
-    height: 100%;
-    margin: auto;
-}
-
-.line_white{
-    background: #FFF;
-    margin: auto;
-    width: 15%;
-    height: 100px;
-    margin-top: 40px;
-}
-
-.road_two{
-    position: absolute;
-    top: 45%;
-    left: 0%;;
-    background: #000;
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.line_white_two{
-    background: #FFF;
-    width: 10%;
-    height: 15%;
-    margin-left: 40px;
-}
-
-.line_white:nth-child(1){
-    margin-top: 0;
-}
-
 .district_one, .district_two{
     position: absolute;
     display: flex;
