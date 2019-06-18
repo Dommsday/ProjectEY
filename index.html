@@ -15,6 +15,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/large_screen.css"/>
+    
 </head>
 <body>
     <div class="enigme_one_screen container-fluid">
@@ -149,7 +150,8 @@
                 </div>
             </div>
         </div> 
-
+        <!--END DISTRICT 1-->
+        <!--START DISTRICT 2-->
         <div class="container district_two">
             <div class="house house_district_two">
                 <img src="pictures/house.png" class="img-fluid house_skin" data-toggle="modal" data-target="#indice_house_seven"/>
@@ -250,7 +252,7 @@
                                 COUPABLE
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Eleven</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             </div>
                         </div>
                     </div>
@@ -278,11 +280,19 @@
                 </div>
             </div>
         </div> 
+        <!--END DISTRICT 2--><div id="container_button">
+                   <button class="button_cross" id="buttonCross">&times;</button> 
+                </div>
+        <div class="indication" id="container_indication">
+            <div class="title_indication" id="picture_house">
+                <h2>Photo</h2>
+                
+            </div>
+            <img src="pictures/old-house.jpg" alt="old house" class="img fluid"/>
+        </div>
     </div>
 
-    
-
-
-    
+    <script src="js/animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </body>
 </html>
