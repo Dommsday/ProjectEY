@@ -1,3 +1,11 @@
+/*GENERAL
+============*/
+.container-fluid{
+    padding: 0;
+}
+/*FIN GENERAL
+==============*/
+
 /*ENIGME UNE
 ================*/
 
@@ -6,7 +14,6 @@
     background:#666F70;
     overflow: hidden;
     height: 100vh;
-    padding: 0;
 }
 
 .district_one, .district_two{
@@ -91,3 +98,53 @@
 }
 /*FIN ENIGME UNE
 =======================*/
+
+/*DEBUT ENIGME QUATRE
+=======================*/
+.enigme_four_screen{
+    background: #666F70;
+    border: 2px solid black;
+    height: 100vh;
+}
+
+.library, .bed, .window, .table, .dog{
+    width: 150px;
+    height: 300px;
+}
+
+.library{
+    position: absolute;
+    left: 25%;
+}
+
+.bed{
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+}
+
+.window{
+    position: absolute;
+    right: 40%;
+}
+
+.table{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+}
+
+.dog{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+}
+
+.library img, .bed img, .window img, .table img, .dog img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*FIN ENIGME QUATRE
+========================*/
