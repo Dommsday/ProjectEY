@@ -50,22 +50,19 @@
     left: 42%;
 }
 
-.title_indication{
-    border: 2px solid black;
-    background: #FFF;
+.buttons_indication{
+    border: 2px solid green;
+    width: 115px;
     position: absolute;
-    top: -65px;
-    left: 17%;
+    bottom: 144px;
+    left: 27%;
     display: flex;
 }
 
-.title_indication:hover{
-    cursor: pointer;
-}
-
-.title_indication h2{
-    font-size: 36px;
-    margin: 0.2em 0.8em;
+.button_picture{
+    border: none;
+    font-size: 20px;
+    padding: 0.4em 0.8em;
 }
 
 .button_cross{
@@ -76,12 +73,21 @@
     height: 50%;
     border: none;
     background: #94090D;
-    
+    display: none;
 }
 
 .indication img{
     width: 100%;
     height: 100%;
+}
+
+.link_house{
+    color: #000;
+}
+
+.link_house:hover{
+    text-decoration: none;
+    color: #000;
 }
 /*FIN ENIGME UNE
 =======================*/
