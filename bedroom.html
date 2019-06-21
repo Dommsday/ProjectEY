@@ -31,15 +31,57 @@
 </head>
 <body>
     <div class="container-fluid enigme_four_screen">
-        <div id="library" class="t">
-            <img src="pictures/books.jpg" class="img-fluid picture_bedroom" alt="bibliothèque"/>
+
+        <div id="astrologie">
+            <img src="pictures/symboles-astrologique.jpg" class="img-fluid" alt="cadre astrologique" data-toggle="modal" data-target="#cadre_astrologique"/>
+            <div class="modal fade" id="cadre_astrologique" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ModalLabel">Cadre Astrologique</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="pictures/symboles-astrologique.jpg" class="img-fluid" alt="cadre astrologique" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div id="library" class="element_bedroom">
+            <img src="pictures/books.jpg" class="img-fluid picture_bedroom" alt="bibliothèque" />
             <div id="information_library" class="information">
                     <button class="close_information">&times;</button>
                     <p>Une simple bibliothèque. Un bruit vient de derrière...</p>
             </div>
+            <span id="indice_library" data-toggle="modal" data-target="#indice_house_one"></span>
+             <div class="modal fade" id="indice_house_one" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="ModalLabel">Mr ZIMMERMANN</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Indice 1
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="window" class="t">
+        <div id="window" class="element_bedroom">
             <img src="pictures/window.png" class="img-fluid picture_bedroom" alt="Fenêtre" />
             <div id="information_window" class="information">
                     <button class="close_information">&times;</button>
@@ -47,7 +89,7 @@
             </div>
         </div>
 
-        <div id="bed" class="t">
+        <div id="bed" class="element_bedroom">
             <img src="pictures/bed.png" class="img-fluid picture_bedroom" alt="Lit" />
             <div id="information_bed" class="information">
                 <button class="close_information">&times;</button>
@@ -55,7 +97,7 @@
             </div>
         </div>
 
-        <div id="dog" class="t">
+        <div id="dog" class="element_bedroom">
             <img src="pictures/dog.png" class="img-fluid picture_bedroom" alt="Chien" />
             <div id="information_dog" class="information">
                 <button class="close_information">&times;</button>
@@ -63,7 +105,7 @@
             </div>
         </div>
 
-        <div id="table" class="t">
+        <div id="table" class="element_bedroom">
             <img src="pictures/table.png" class="img-fluid picture_bedroom" alt="Table de chevet" />
             <div id="information_table" class="information">
                 <button class="close_information">&times;</button>

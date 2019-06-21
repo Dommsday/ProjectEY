@@ -107,9 +107,21 @@
     height: 100vh;
 }
 
-#library, #bed, #window, #table, #dog{
+#library, #bed, #window, #table, #dog, #astrologie{
     width: 150px;
     height: 300px;
+}
+
+#astrologie{
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 130px;
+    height: auto;
+}
+
+#astrologie:hover{
+    cursor: zoom-in;
 }
 
 #library{
@@ -117,6 +129,18 @@
     left: 25%;
     width: 300px;
     height: auto;
+}
+
+#indice_library{
+    background: red;
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    top: 6%;
+}
+
+#indice_library:hover{
+    cursor: zoom-in;
 }
 
 #bed{
@@ -150,7 +174,7 @@
     height: auto;
 }
 
-#library img, #bed img, #window img, #table img, #dog img{
+#library img, #bed img, #window img, #table img, #dog img, #astrologie img{
     width: 100%;
     max-width: 100%;
     height: auto;
