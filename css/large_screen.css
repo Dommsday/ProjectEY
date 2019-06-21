@@ -107,43 +107,68 @@
     height: 100vh;
 }
 
-.library, .bed, .window, .table, .dog{
+#library, #bed, #window, #table, #dog{
     width: 150px;
     height: 300px;
 }
 
-.library{
+#library{
     position: absolute;
     left: 25%;
+    width: 300px;
+    height: auto;
 }
 
-.bed{
+#bed{
     position: absolute;
     right: 4%;
     bottom: 4%;
+    width: 300px;
+    height: auto;
 }
 
-.window{
+#window{
     position: absolute;
     right: 40%;
+    width: 200px;
+    height: auto;
 }
 
-.table{
+#table{
     position: absolute;
     right: 15%;
     top: 30%;
+    width: 180px;
+    height: auto;
 }
 
-.dog{
+#dog{
     position: absolute;
     top: 55%;
     left: 35%;
+    width: 250px;
+    height: auto;
 }
 
-.library img, .bed img, .window img, .table img, .dog img{
+#library img, #bed img, #window img, #table img, #dog img{
     width: 100%;
     max-width: 100%;
     height: auto;
+}
+
+.information{
+    background: #FFF;
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 0.2em 0.5em;
+}
+
+.close_information{
+    border: none;
+    background: #94090D;
+    color: #FFF;
+    font-weight: 900;
 }
 
 /*FIN ENIGME QUATRE
