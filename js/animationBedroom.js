@@ -16,13 +16,13 @@ const showMessage = () =>{
     for(let i = 0; i<picturesBedroom.length; i++){
 
         picturesBedroom[i].addEventListener("click", ()=>{
-            console.log("test");
             
             for(let j = 0; j<messagesInformation.length; j++){
                  
                 if(i === j){
                     messagesInformation[j].style.display="block";
-                    console.log("hello");
+                }else{
+                    messagesInformation[j].style.display="none";
                 }
             }
         });
@@ -38,7 +38,6 @@ const hideMessage = () =>{
             for(let j = 0; j<messagesInformation.length; j++){
 
                 if(i === j){
-                    console.log("succes");
                     messagesInformation[j].style.display="none"; 
                 }
             } 
