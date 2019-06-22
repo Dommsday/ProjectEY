@@ -221,3 +221,13 @@
 
 /*FIN ENIGME QUATRE
 ========================*/
+
+/*DEBUT ENIGME SIX
+========================*/
+.enigme_six_screen{
+    background: rgb(160, 125, 167);
+    border: 2px solid black;
+    height: 100vh;
+}
+/*FIN ENIGME SIX
+========================*/
