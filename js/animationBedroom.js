@@ -2,7 +2,7 @@ const messagesInformation = document.querySelectorAll('.information');
 const picturesBedroom = document.querySelectorAll('.picture_bedroom');
 const pictureLibrary = document.querySelector('.picture_library');
 const library = document.querySelector('#library');
-const belier = document.querySelector('#Belier');
+const belier = document.querySelector('#belier');
 const closeInformation = document.querySelectorAll('.close_information');
 
 const displayInformation = () =>{
