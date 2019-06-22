@@ -55,7 +55,7 @@
         </div>
 
         <div id="library" class="element_bedroom">
-            <img src="pictures/books.jpg" class="img-fluid picture_bedroom" alt="bibliothèque" />
+            <img src="pictures/books.jpg" class="img-fluid picture_bedroom picture_library" alt="bibliothèque" />
             <div id="information_library" class="information">
                     <button class="close_information">&times;</button>
                     <p>Une simple bibliothèque. Un bruit vient de derrière...</p>
@@ -65,7 +65,20 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
-                            LIBRARY
+                            <div class="all_books">
+                                <div class="book_astrologie" id="Belier">B</div>
+                                <div class="book_astrologie" id="Lion">L</div>
+                                <div class="book_astrologie" id="Sagittaire">Sa</div>
+                                <div class="book_astrologie" id="Poisson">P</div>
+                                <div class="book_astrologie" id="Balance">Ba</div>
+                                <div class="book_astrologie" id="Vierge">V</div>
+                                <div class="book_astrologie" id="Cancer">C</div>
+                                <div class="book_astrologie" id="Scorpion">S</div>
+                                <div class="book_astrologie" id="Capricorne">Ca</div>
+                                <div class="book_astrologie" id="Verseau">Ve</div>
+                                <div class="book_astrologie" id="Gemeaux">G</div>
+                                <div class="book_astrologie" id="Taureau">T</div>
+                            </div> 
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
@@ -105,7 +118,7 @@
                 <button class="close_information">&times;</button>
                 <p>Une vieille commode</p>
             </div>
-            <span id="span_indice_table" data-toggle="modal" data-target="#indice_table">Indice</span>
+            <span id="span_indice_table" data-toggle="modal" data-target="#indice_table"></span>
              <div class="modal fade" id="indice_table" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -122,5 +135,6 @@
     </div>
 
     <script src="js/animationBedroom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 </body>
 </html>
