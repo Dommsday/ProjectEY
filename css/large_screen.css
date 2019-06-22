@@ -229,5 +229,11 @@
     border: 2px solid black;
     height: 100vh;
 }
+
+.machine{
+    background: brown;
+    width: 400px;
+    height: 250px;
+}
 /*FIN ENIGME SIX
 ========================*/
