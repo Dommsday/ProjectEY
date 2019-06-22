@@ -228,12 +228,28 @@
     background: rgb(160, 125, 167);
     border: 2px solid black;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .machine{
     background: brown;
+    position: relative;
     width: 400px;
-    height: 250px;
+    height: 250px;  
+}
+
+.cadran{
+    width: 180px;
+    height: 80px;
+    background: rgba(224, 95, 8, 0.753);
+    position: absolute;
+    bottom: 0%;
+}
+
+.cadran:hover{
+    cursor: zoom-in;
 }
 /*FIN ENIGME SIX
 ========================*/
