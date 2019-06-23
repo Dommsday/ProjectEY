@@ -251,5 +251,16 @@
 .cadran:hover{
     cursor: zoom-in;
 }
+
+.curseur{
+    border: 2px solid green;
+    display: flex;
+}
+
+.numberVMC{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0.2em 0.5em;
+}
 /*FIN ENIGME SIX
 ========================*/

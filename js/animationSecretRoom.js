@@ -1,10 +1,25 @@
+const curseurCadran = document.getElementById("curseurCadran");
 const curseur = document.getElementById("curseur");
-const arrayNumber = [1,2,3,4];
+const arrayNumber = [1,2,3,4,5];
 
-function test(){
+function showVMC(){
 
-    const p = document.createElement("p");
-    curseur.appendChild(p);
+    arrayNumber.map(number =>{
+        const p = document.createElement("p");
+        p.setAttribute("class", "numberVMC");
+        p.textContent= number;
+        curseurCadran.appendChild(p);
+    });  
 }
 
-test();
+function curseurVMC(){
+    arrayNumber.map(number =>{
+        const p = document.createElement("p");
+        p.setAttribute("class", "numberVMC");
+        p.textContent= number;
+        curseur.appendChild(p);
+    });  
+}
+
+showVMC();
+curseurVMC();
