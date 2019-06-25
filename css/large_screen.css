@@ -262,5 +262,9 @@
     font-weight: 900;
     margin: 0.2em 0.5em;
 }
+
+.curseur_aiguille{
+    border: 2px solid orangered;
+}
 /*FIN ENIGME SIX
 ========================*/
