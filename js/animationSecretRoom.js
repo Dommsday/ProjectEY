@@ -7,6 +7,7 @@ const manivelleRight = document.getElementById("manivelle_right");
 let move = 0;
 const cadran = document.getElementById("cadran");
 
+
 function showVMC(){
 
     arrayNumber.map(number =>{
@@ -33,10 +34,6 @@ function moveArrow(){
     manivelleRight.addEventListener('click', () =>{
         move = move+=30;
         positionRight = move;
-
-        console.log(`Valeur de move : ${move}`);
-        console.log(`Valeur de positionRight : ${positionRight}`);
-
         curseurArrow.style.marginLeft = `${positionRight}px`;
 
         if(move == 120){
@@ -52,6 +49,15 @@ function moveArrow(){
     });
 
 }
+
+$(function() {
+
+    $('#manivelle_reset').click(function() {
+        $('#cadran').modal('hide');
+    });
+    
+ });
+
 
 
 showVMC();
