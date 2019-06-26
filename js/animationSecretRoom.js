@@ -5,6 +5,7 @@ const arrayNumber = [1,2,3,4,5];
 const reset = document.getElementById("manivelle_reset");
 const manivelleRight = document.getElementById("manivelle_right");
 let move = 0;
+const cadran = document.getElementById("cadran");
 
 function showVMC(){
 
@@ -26,8 +27,7 @@ function curseurVMC(){
 }
 
 function moveArrow(){
-    let positionRight;
-    let positionLeft = 0;
+    let positionRight; 
     
 
     manivelleRight.addEventListener('click', () =>{
@@ -50,7 +50,9 @@ function moveArrow(){
         curseurArrow.style.marginLeft="inherit";
         manivelleRight.disabled = false;
     });
+
 }
+
 
 showVMC();
 curseurVMC();
