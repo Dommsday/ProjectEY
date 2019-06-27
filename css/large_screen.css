@@ -266,7 +266,39 @@
 .curseur_aiguille{
     border: 2px solid orangered;
 }
-
-
 /*FIN ENIGME SIX
 ========================*/
+
+/*DERNIERE ENIGME
+========================*/
+.last_enigme{
+    background: #94090D;
+    height: 100vh;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.digicode{
+    background: gray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+}
+
+.number_digicode{
+    font-size: 22px;
+    font-weight: 900;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.4em 0.6em;
+}
+
+.number_digicode:hover{
+    cursor: pointer;
+}
+/*FIN DERNIERE ENIGME
+=========================*/
