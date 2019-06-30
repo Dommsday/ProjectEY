@@ -99,6 +99,94 @@
 /*FIN ENIGME UNE
 =======================*/
 
+/*ENIGME DEUX
+=======================*/
+.enigme_two{
+    border: 4px solid blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labyrinthe{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.bloc_one{
+    position: absolute;
+    background: rgb(157, 157, 204);
+    width: 16.6%;
+    height: 50%;
+    border: 2px solid black;
+    left: 66.4%;
+}
+
+.bloc_two{
+    position: absolute;
+    background: red;
+    width: 33.2%;
+    height: 16.6%;
+    border: 2px solid black;
+    left: 33.2%;
+    top: 33.2%;
+}
+
+.bloc_three{
+    position: absolute;
+    background: orangered;
+    width: 16.6%;
+    height: 33.2%;
+    border: 2px solid black;
+    left: 33.2%;
+    bottom: 17%;
+}
+
+.bloc_four{
+    position: absolute;
+    background: rgb(199, 139, 159);
+    width: 50%;
+    height: 17%;
+    border: 2px solid black;
+    left: 0%;
+    bottom: 0%;
+}
+
+.bloc_five{
+    position: absolute;
+    background: rgb(68, 167, 76);
+    width: 33.2%;
+    height: 17%;
+    border: 2px solid black;
+    right: 17%;
+    bottom: 33.2%;
+}
+
+.bloc_six{
+    position: absolute;
+    background: rgb(218, 221, 12);
+    width: 17%;
+    height: 33.2%;
+    border: 2px solid black;
+    right: 33.2%;
+    bottom: 0%;
+}
+
+.bloc_seven{
+    position: absolute;
+    background: rgb(221, 12, 99);
+    width: 33.2%;
+    height: 17%;
+    border: 2px solid black;
+    right: 0%;
+    bottom: 16.6%;
+}
+/*FIN ENIGME DEUX
+=======================*/
+
 /*DEBUT ENIGME QUATRE
 =======================*/
 .enigme_four_screen{
